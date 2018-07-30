@@ -8,6 +8,7 @@
 
 import React, { Component } from "react";
 import { Platform, StyleSheet, Text, View } from "react-native";
+import LinearGradient from "react-native-linear-gradient";
 
 const instructions = Platform.select({
   ios: "Press Cmd+R to reload,\n" + "Cmd+D or shake for dev menu",
@@ -16,15 +17,16 @@ const instructions = Platform.select({
     "Shake or press menu button for dev menu"
 });
 
-type Props = {};
-export default class Home extends Component<Props> {
+// type Props = {};
+export default class Home extends Component {
+  // <Props>
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
-      </View>
+      <LinearGradient colors={["#8E2DE2", "#4A00E0"]} style={styles.container}>
+        <View>
+          <Text style={styles.welcome}>Welcome to simpl!</Text>
+        </View>
+      </LinearGradient>
     );
   }
 }
@@ -39,7 +41,8 @@ const styles = StyleSheet.create({
   welcome: {
     fontSize: 20,
     textAlign: "center",
-    margin: 10
+    margin: 10,
+    color: "#FFFFFF"
   },
   instructions: {
     textAlign: "center",
