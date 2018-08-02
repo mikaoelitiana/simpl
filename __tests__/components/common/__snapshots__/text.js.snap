@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as snapshot 1`] = `
+<CustomText>
+  <Component
+    style={
+      Array [
+        Object {
+          "fontFamily": "Ubuntu-Regular",
+        },
+        null,
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Ubuntu-Regular",
+          },
+          null,
+          undefined,
+        ]
+      }
+    >
+      Hello World
+    </Text>
+  </Component>
+</CustomText>
+`;

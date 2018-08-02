@@ -13,14 +13,39 @@
     "react-navigation": "^2.9.3"
   },
   "devDependencies": {
+    "babel-eslint": "^8.2.6",
     "babel-jest": "23.4.2",
     "babel-preset-react-native": "^5",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
     "eslint": "^5.2.0",
     "jest": "23.4.2",
+    "jest-serializer-enzyme": "^1.0.0",
+    "jsdom": "^11.12.0",
+    "react-native-mock-render": "^0.0.27",
     "react-test-renderer": "16.4.1"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "coverageReporters": [
+      "text",
+      "html",
+      "cobertura",
+      "clover"
+    ],
+    "coveragePathIgnorePatterns": [
+      "src/assets",
+      "src/i18n",
+      "jest"
+    ],
+    "setupFiles": [
+      "<rootDir>/jest/setup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   },
   "rnpm": {
     "assets": [
