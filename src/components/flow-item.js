@@ -5,7 +5,7 @@ import Text from "./text";
 export default class FlowItem extends React.Component {
   render() {
     return (
-      <TouchableOpacity style={styles.container}>
+      <TouchableOpacity style={styles.container} onPress={this.props.onPress}>
         <Text bold style={styles.title}>
           {this.props.title}
         </Text>
@@ -17,6 +17,7 @@ export default class FlowItem extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
+    width: "100%",
     marginBottom: 20,
     borderLeftColor: "#ffffff",
     borderLeftWidth: 3,

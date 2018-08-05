@@ -11,6 +11,7 @@ import { Platform, StyleSheet, View, FlatList } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import FlowItem from "../components/flow-item";
 import Text from "../components/text";
+import data from "../mocks/items";
 
 // type Props = {};
 export default class Home extends Component {
@@ -22,20 +23,10 @@ export default class Home extends Component {
           <Text style={styles.welcome}>Welcome to simpl!</Text>
         </View>
         <FlatList
-          data={[
-            {
-              key: "a",
-              title: "Moring flow",
-              description: "What I do when I wake up."
-            },
-            {
-              key: "b",
-              title: "Afternoon workout",
-              description:
-                "A few minutes of workout in the afternoon to keep in good shape"
-            }
-          ]}
-          renderItem={({ item }) => <FlowItem {...item} />}
+          data={data}
+          renderItem={({ item }) => (
+            <FlowItem {...item} onPress={() => this.props.navigation.navigate("Detail", { item })} />
+          )}
         />
       </LinearGradient>
     );
@@ -45,8 +36,6 @@ export default class Home extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
     backgroundColor: "#F5FCFF",
     opacity: 0.9,
     padding: 18
