@@ -119,12 +119,46 @@ exports[`Home screen matches initial snapshot 1`] = `
             Array [
               Object {
                 "description": "What I do when I wake up.",
-                "key": "a",
+                "key": "1",
+                "steps": Array [
+                  Object {
+                    "description": "Go to the bathroom",
+                    "timer": 10,
+                    "title": "Wash",
+                  },
+                  Object {
+                    "description": "Have a quiet time to meditate",
+                    "timer": 20,
+                    "title": "Meditate",
+                  },
+                  Object {
+                    "description": "Breakfast time",
+                    "timer": 20,
+                    "title": "Eat",
+                  },
+                  Object {
+                    "description": "Find and put the right clothes.",
+                    "timer": 10,
+                    "title": "Clothe",
+                  },
+                ],
                 "title": "Moring flow",
               },
               Object {
                 "description": "A few minutes of workout in the afternoon to keep in good shape",
-                "key": "b",
+                "key": "2",
+                "steps": Array [
+                  Object {
+                    "description": "💪🏼",
+                    "timer": 3,
+                    "title": "Push-up",
+                  },
+                  Object {
+                    "description": "⛹🏼‍♀️",
+                    "timer": 20,
+                    "title": "Jumping",
+                  },
+                ],
                 "title": "Afternoon workout",
               },
             ]
@@ -146,12 +180,46 @@ exports[`Home screen matches initial snapshot 1`] = `
               Array [
                 Object {
                   "description": "What I do when I wake up.",
-                  "key": "a",
+                  "key": "1",
+                  "steps": Array [
+                    Object {
+                      "description": "Go to the bathroom",
+                      "timer": 10,
+                      "title": "Wash",
+                    },
+                    Object {
+                      "description": "Have a quiet time to meditate",
+                      "timer": 20,
+                      "title": "Meditate",
+                    },
+                    Object {
+                      "description": "Breakfast time",
+                      "timer": 20,
+                      "title": "Eat",
+                    },
+                    Object {
+                      "description": "Find and put the right clothes.",
+                      "timer": 10,
+                      "title": "Clothe",
+                    },
+                  ],
                   "title": "Moring flow",
                 },
                 Object {
                   "description": "A few minutes of workout in the afternoon to keep in good shape",
-                  "key": "b",
+                  "key": "2",
+                  "steps": Array [
+                    Object {
+                      "description": "💪🏼",
+                      "timer": 3,
+                      "title": "Push-up",
+                    },
+                    Object {
+                      "description": "⛹🏼‍♀️",
+                      "timer": 20,
+                      "title": "Jumping",
+                    },
+                  ],
                   "title": "Afternoon workout",
                 },
               ]
@@ -176,12 +244,46 @@ exports[`Home screen matches initial snapshot 1`] = `
                 Array [
                   Object {
                     "description": "What I do when I wake up.",
-                    "key": "a",
+                    "key": "1",
+                    "steps": Array [
+                      Object {
+                        "description": "Go to the bathroom",
+                        "timer": 10,
+                        "title": "Wash",
+                      },
+                      Object {
+                        "description": "Have a quiet time to meditate",
+                        "timer": 20,
+                        "title": "Meditate",
+                      },
+                      Object {
+                        "description": "Breakfast time",
+                        "timer": 20,
+                        "title": "Eat",
+                      },
+                      Object {
+                        "description": "Find and put the right clothes.",
+                        "timer": 10,
+                        "title": "Clothe",
+                      },
+                    ],
                     "title": "Moring flow",
                   },
                   Object {
                     "description": "A few minutes of workout in the afternoon to keep in good shape",
-                    "key": "b",
+                    "key": "2",
+                    "steps": Array [
+                      Object {
+                        "description": "💪🏼",
+                        "timer": 3,
+                        "title": "Push-up",
+                      },
+                      Object {
+                        "description": "⛹🏼‍♀️",
+                        "timer": 20,
+                        "title": "Jumping",
+                      },
+                    ],
                     "title": "Afternoon workout",
                   },
                 ]
@@ -213,12 +315,46 @@ exports[`Home screen matches initial snapshot 1`] = `
                   Array [
                     Object {
                       "description": "What I do when I wake up.",
-                      "key": "a",
+                      "key": "1",
+                      "steps": Array [
+                        Object {
+                          "description": "Go to the bathroom",
+                          "timer": 10,
+                          "title": "Wash",
+                        },
+                        Object {
+                          "description": "Have a quiet time to meditate",
+                          "timer": 20,
+                          "title": "Meditate",
+                        },
+                        Object {
+                          "description": "Breakfast time",
+                          "timer": 20,
+                          "title": "Eat",
+                        },
+                        Object {
+                          "description": "Find and put the right clothes.",
+                          "timer": 10,
+                          "title": "Clothe",
+                        },
+                      ],
                       "title": "Moring flow",
                     },
                     Object {
                       "description": "A few minutes of workout in the afternoon to keep in good shape",
-                      "key": "b",
+                      "key": "2",
+                      "steps": Array [
+                        Object {
+                          "description": "💪🏼",
+                          "timer": 3,
+                          "title": "Push-up",
+                        },
+                        Object {
+                          "description": "⛹🏼‍♀️",
+                          "timer": 20,
+                          "title": "Jumping",
+                        },
+                      ],
                       "title": "Afternoon workout",
                     },
                   ]
@@ -250,12 +386,46 @@ exports[`Home screen matches initial snapshot 1`] = `
                     Array [
                       Object {
                         "description": "What I do when I wake up.",
-                        "key": "a",
+                        "key": "1",
+                        "steps": Array [
+                          Object {
+                            "description": "Go to the bathroom",
+                            "timer": 10,
+                            "title": "Wash",
+                          },
+                          Object {
+                            "description": "Have a quiet time to meditate",
+                            "timer": 20,
+                            "title": "Meditate",
+                          },
+                          Object {
+                            "description": "Breakfast time",
+                            "timer": 20,
+                            "title": "Eat",
+                          },
+                          Object {
+                            "description": "Find and put the right clothes.",
+                            "timer": 10,
+                            "title": "Clothe",
+                          },
+                        ],
                         "title": "Moring flow",
                       },
                       Object {
                         "description": "A few minutes of workout in the afternoon to keep in good shape",
-                        "key": "b",
+                        "key": "2",
+                        "steps": Array [
+                          Object {
+                            "description": "💪🏼",
+                            "timer": 3,
+                            "title": "Push-up",
+                          },
+                          Object {
+                            "description": "⛹🏼‍♀️",
+                            "timer": 20,
+                            "title": "Jumping",
+                          },
+                        ],
                         "title": "Afternoon workout",
                       },
                     ]
@@ -285,7 +455,7 @@ exports[`Home screen matches initial snapshot 1`] = `
                   <Component>
                     <View>
                       <CellRenderer
-                        cellKey="a"
+                        cellKey="1"
                         fillRateHelper={
                           FillRateHelper {
                             "_anyBlankStartTime": null,
@@ -313,11 +483,33 @@ exports[`Home screen matches initial snapshot 1`] = `
                         item={
                           Object {
                             "description": "What I do when I wake up.",
-                            "key": "a",
+                            "key": "1",
+                            "steps": Array [
+                              Object {
+                                "description": "Go to the bathroom",
+                                "timer": 10,
+                                "title": "Wash",
+                              },
+                              Object {
+                                "description": "Have a quiet time to meditate",
+                                "timer": 20,
+                                "title": "Meditate",
+                              },
+                              Object {
+                                "description": "Breakfast time",
+                                "timer": 20,
+                                "title": "Eat",
+                              },
+                              Object {
+                                "description": "Find and put the right clothes.",
+                                "timer": 10,
+                                "title": "Clothe",
+                              },
+                            ],
                             "title": "Moring flow",
                           }
                         }
-                        key="a"
+                        key="1"
                         onLayout={[Function]}
                         onUnmount={[Function]}
                         onUpdateSeparators={[Function]}
@@ -326,12 +518,46 @@ exports[`Home screen matches initial snapshot 1`] = `
                             "data": Array [
                               Object {
                                 "description": "What I do when I wake up.",
-                                "key": "a",
+                                "key": "1",
+                                "steps": Array [
+                                  Object {
+                                    "description": "Go to the bathroom",
+                                    "timer": 10,
+                                    "title": "Wash",
+                                  },
+                                  Object {
+                                    "description": "Have a quiet time to meditate",
+                                    "timer": 20,
+                                    "title": "Meditate",
+                                  },
+                                  Object {
+                                    "description": "Breakfast time",
+                                    "timer": 20,
+                                    "title": "Eat",
+                                  },
+                                  Object {
+                                    "description": "Find and put the right clothes.",
+                                    "timer": 10,
+                                    "title": "Clothe",
+                                  },
+                                ],
                                 "title": "Moring flow",
                               },
                               Object {
                                 "description": "A few minutes of workout in the afternoon to keep in good shape",
-                                "key": "b",
+                                "key": "2",
+                                "steps": Array [
+                                  Object {
+                                    "description": "💪🏼",
+                                    "timer": 3,
+                                    "title": "Push-up",
+                                  },
+                                  Object {
+                                    "description": "⛹🏼‍♀️",
+                                    "timer": 20,
+                                    "title": "Jumping",
+                                  },
+                                ],
                                 "title": "Afternoon workout",
                               },
                             ],
@@ -362,8 +588,32 @@ exports[`Home screen matches initial snapshot 1`] = `
                           >
                             <FlowItem
                               description="What I do when I wake up."
-                              key="a"
+                              key="1"
                               onPress={[Function]}
+                              steps={
+                                Array [
+                                  Object {
+                                    "description": "Go to the bathroom",
+                                    "timer": 10,
+                                    "title": "Wash",
+                                  },
+                                  Object {
+                                    "description": "Have a quiet time to meditate",
+                                    "timer": 20,
+                                    "title": "Meditate",
+                                  },
+                                  Object {
+                                    "description": "Breakfast time",
+                                    "timer": 20,
+                                    "title": "Eat",
+                                  },
+                                  Object {
+                                    "description": "Find and put the right clothes.",
+                                    "timer": 10,
+                                    "title": "Clothe",
+                                  },
+                                ]
+                              }
                               title="Moring flow"
                             >
                               <TouchableOpacity
@@ -548,7 +798,7 @@ exports[`Home screen matches initial snapshot 1`] = `
                         </Component>
                       </CellRenderer>
                       <CellRenderer
-                        cellKey="b"
+                        cellKey="2"
                         fillRateHelper={
                           FillRateHelper {
                             "_anyBlankStartTime": null,
@@ -576,11 +826,23 @@ exports[`Home screen matches initial snapshot 1`] = `
                         item={
                           Object {
                             "description": "A few minutes of workout in the afternoon to keep in good shape",
-                            "key": "b",
+                            "key": "2",
+                            "steps": Array [
+                              Object {
+                                "description": "💪🏼",
+                                "timer": 3,
+                                "title": "Push-up",
+                              },
+                              Object {
+                                "description": "⛹🏼‍♀️",
+                                "timer": 20,
+                                "title": "Jumping",
+                              },
+                            ],
                             "title": "Afternoon workout",
                           }
                         }
-                        key="b"
+                        key="2"
                         onLayout={[Function]}
                         onUnmount={[Function]}
                         onUpdateSeparators={[Function]}
@@ -589,12 +851,46 @@ exports[`Home screen matches initial snapshot 1`] = `
                             "data": Array [
                               Object {
                                 "description": "What I do when I wake up.",
-                                "key": "a",
+                                "key": "1",
+                                "steps": Array [
+                                  Object {
+                                    "description": "Go to the bathroom",
+                                    "timer": 10,
+                                    "title": "Wash",
+                                  },
+                                  Object {
+                                    "description": "Have a quiet time to meditate",
+                                    "timer": 20,
+                                    "title": "Meditate",
+                                  },
+                                  Object {
+                                    "description": "Breakfast time",
+                                    "timer": 20,
+                                    "title": "Eat",
+                                  },
+                                  Object {
+                                    "description": "Find and put the right clothes.",
+                                    "timer": 10,
+                                    "title": "Clothe",
+                                  },
+                                ],
                                 "title": "Moring flow",
                               },
                               Object {
                                 "description": "A few minutes of workout in the afternoon to keep in good shape",
-                                "key": "b",
+                                "key": "2",
+                                "steps": Array [
+                                  Object {
+                                    "description": "💪🏼",
+                                    "timer": 3,
+                                    "title": "Push-up",
+                                  },
+                                  Object {
+                                    "description": "⛹🏼‍♀️",
+                                    "timer": 20,
+                                    "title": "Jumping",
+                                  },
+                                ],
                                 "title": "Afternoon workout",
                               },
                             ],
@@ -614,7 +910,7 @@ exports[`Home screen matches initial snapshot 1`] = `
                             "windowSize": 21,
                           }
                         }
-                        prevCellKey="a"
+                        prevCellKey="1"
                       >
                         <Component
                           onLayout={[Function]}
@@ -626,8 +922,22 @@ exports[`Home screen matches initial snapshot 1`] = `
                           >
                             <FlowItem
                               description="A few minutes of workout in the afternoon to keep in good shape"
-                              key="b"
+                              key="2"
                               onPress={[Function]}
+                              steps={
+                                Array [
+                                  Object {
+                                    "description": "💪🏼",
+                                    "timer": 3,
+                                    "title": "Push-up",
+                                  },
+                                  Object {
+                                    "description": "⛹🏼‍♀️",
+                                    "timer": 20,
+                                    "title": "Jumping",
+                                  },
+                                ]
+                              }
                               title="Afternoon workout"
                             >
                               <TouchableOpacity

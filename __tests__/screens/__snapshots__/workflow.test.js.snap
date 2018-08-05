@@ -1,12 +1,46 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Detail screen matches initial snapshot 1`] = `
-<Workflow>
+<Workflow
+  navigation={
+    Object {
+      "getParam": [MockFunction] {
+        "calls": Array [
+          Array [
+            "item",
+          ],
+        ],
+        "results": Array [
+          Object {
+            "isThrow": false,
+            "value": Object {
+              "description": "A few minutes of workout in the afternoon to keep in good shape",
+              "key": "2",
+              "steps": Array [
+                Object {
+                  "description": "💪🏼",
+                  "timer": 3,
+                  "title": "Push-up",
+                },
+                Object {
+                  "description": "⛹🏼‍♀️",
+                  "timer": 20,
+                  "title": "Jumping",
+                },
+              ],
+              "title": "Afternoon workout",
+            },
+          },
+        ],
+      },
+    }
+  }
+>
   <LinearGradient
     colors={
       Array [
-        "#8E2DE2",
-        "#4A00E0",
+        "#1A2980",
+        "#26D0CE",
       ]
     }
     style={
@@ -17,14 +51,15 @@ exports[`Detail screen matches initial snapshot 1`] = `
         "justifyContent": "center",
         "opacity": 0.9,
         "padding": 18,
+        "paddingTop": 50,
       }
     }
   >
     <_class
       colors={
         Array [
-          4287507938,
-          4283039968,
+          4279904640,
+          4280733902,
         ]
       }
       locations={null}
@@ -36,14 +71,15 @@ exports[`Detail screen matches initial snapshot 1`] = `
           "justifyContent": "center",
           "opacity": 0.9,
           "padding": 18,
+          "paddingTop": 50,
         }
       }
     >
       <BVLinearGradient
         colors={
           Array [
-            4287507938,
-            4283039968,
+            4279904640,
+            4280733902,
           ]
         }
         locations={null}
@@ -55,6 +91,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
             "justifyContent": "center",
             "opacity": 0.9,
             "padding": 18,
+            "paddingTop": 50,
           }
         }
       >
@@ -64,32 +101,23 @@ exports[`Detail screen matches initial snapshot 1`] = `
               <Component>
                 <View>
                   <FlowItem
-                    description="What I do when I wake up."
+                    description="A few minutes of workout in the afternoon to keep in good shape"
+                    key="2"
                     steps={
                       Array [
                         Object {
-                          "description": "Go to the bathroom",
-                          "timer": 10,
-                          "title": "Wash",
+                          "description": "💪🏼",
+                          "timer": 3,
+                          "title": "Push-up",
                         },
                         Object {
-                          "description": "Have a quiet time to meditate",
+                          "description": "⛹🏼‍♀️",
                           "timer": 20,
-                          "title": "Meditate",
-                        },
-                        Object {
-                          "description": "Breakfast time",
-                          "timer": 20,
-                          "title": "Eat",
-                        },
-                        Object {
-                          "description": "Find and put the right clothes.",
-                          "timer": 10,
-                          "title": "Clothe",
+                          "title": "Jumping",
                         },
                       ]
                     }
-                    title="Moring flow"
+                    title="Afternoon workout"
                   >
                     <TouchableOpacity
                       activeOpacity={0.2}
@@ -213,7 +241,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
                                     ]
                                   }
                                 >
-                                  Moring flow
+                                  Afternoon workout
                                 </Text>
                               </Text>
                             </CustomText>
@@ -259,7 +287,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
                                     ]
                                   }
                                 >
-                                  What I do when I wake up.
+                                  A few minutes of workout in the afternoon to keep in good shape
                                 </Text>
                               </Text>
                             </CustomText>
@@ -433,7 +461,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
                                   ]
                                 }
                               >
-                                10
+                                3
                                 "
                               </Text>
                             </Text>
@@ -511,7 +539,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
                                   ]
                                 }
                               >
-                                Wash
+                                Push-up
                               </Text>
                             </Text>
                           </CustomText>
@@ -563,7 +591,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
                                   ]
                                 }
                               >
-                                Go to the bathroom
+                                💪🏼
                               </Text>
                             </Text>
                           </CustomText>
@@ -814,7 +842,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
                                   ]
                                 }
                               >
-                                Meditate
+                                Jumping
                               </Text>
                             </Text>
                           </CustomText>
@@ -866,613 +894,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
                                   ]
                                 }
                               >
-                                Have a quiet time to meditate
-                              </Text>
-                            </Text>
-                          </CustomText>
-                        </View>
-                      </Component>
-                    </View>
-                  </Component>
-                  <Component
-                    key="2"
-                    style={
-                      Object {
-                        "flexDirection": "row",
-                        "margin": 10,
-                      }
-                    }
-                  >
-                    <View
-                      style={
-                        Object {
-                          "flexDirection": "row",
-                          "margin": 10,
-                        }
-                      }
-                    >
-                      <Component
-                        style={
-                          Object {
-                            "marginHorizontal": 10,
-                          }
-                        }
-                      >
-                        <View
-                          style={
-                            Object {
-                              "marginHorizontal": 10,
-                            }
-                          }
-                        >
-                          <CustomText
-                            style={
-                              Array [
-                                Object {
-                                  "color": "#FFFFFF",
-                                  "fontSize": 14,
-                                },
-                                Object {
-                                  "borderColor": "#FFFFFF",
-                                  "borderRadius": 15,
-                                  "borderWidth": 1,
-                                  "height": 30,
-                                  "lineHeight": 26,
-                                  "textAlign": "center",
-                                  "textAlignVertical": "center",
-                                  "width": 30,
-                                },
-                              ]
-                            }
-                          >
-                            <Text
-                              accessible={true}
-                              allowFontScaling={true}
-                              ellipsizeMode="tail"
-                              style={
-                                Array [
-                                  Object {
-                                    "fontFamily": "Ubuntu-Regular",
-                                  },
-                                  null,
-                                  Array [
-                                    Object {
-                                      "color": "#FFFFFF",
-                                      "fontSize": 14,
-                                    },
-                                    Object {
-                                      "borderColor": "#FFFFFF",
-                                      "borderRadius": 15,
-                                      "borderWidth": 1,
-                                      "height": 30,
-                                      "lineHeight": 26,
-                                      "textAlign": "center",
-                                      "textAlignVertical": "center",
-                                      "width": 30,
-                                    },
-                                  ],
-                                ]
-                              }
-                            >
-                              <Text
-                                accessible={true}
-                                allowFontScaling={true}
-                                ellipsizeMode="tail"
-                                style={
-                                  Array [
-                                    Object {
-                                      "fontFamily": "Ubuntu-Regular",
-                                    },
-                                    null,
-                                    Array [
-                                      Object {
-                                        "color": "#FFFFFF",
-                                        "fontSize": 14,
-                                      },
-                                      Object {
-                                        "borderColor": "#FFFFFF",
-                                        "borderRadius": 15,
-                                        "borderWidth": 1,
-                                        "height": 30,
-                                        "lineHeight": 26,
-                                        "textAlign": "center",
-                                        "textAlignVertical": "center",
-                                        "width": 30,
-                                      },
-                                    ],
-                                  ]
-                                }
-                              >
-                                2
-                              </Text>
-                            </Text>
-                          </CustomText>
-                        </View>
-                      </Component>
-                      <Component>
-                        <View>
-                          <CustomText
-                            style={
-                              Array [
-                                Object {
-                                  "color": "#FFFFFF",
-                                  "fontSize": 14,
-                                },
-                              ]
-                            }
-                          >
-                            <Text
-                              accessible={true}
-                              allowFontScaling={true}
-                              ellipsizeMode="tail"
-                              style={
-                                Array [
-                                  Object {
-                                    "fontFamily": "Ubuntu-Regular",
-                                  },
-                                  null,
-                                  Array [
-                                    Object {
-                                      "color": "#FFFFFF",
-                                      "fontSize": 14,
-                                    },
-                                  ],
-                                ]
-                              }
-                            >
-                              <Text
-                                accessible={true}
-                                allowFontScaling={true}
-                                ellipsizeMode="tail"
-                                style={
-                                  Array [
-                                    Object {
-                                      "fontFamily": "Ubuntu-Regular",
-                                    },
-                                    null,
-                                    Array [
-                                      Object {
-                                        "color": "#FFFFFF",
-                                        "fontSize": 14,
-                                      },
-                                    ],
-                                  ]
-                                }
-                              >
-                                20
-                                "
-                              </Text>
-                            </Text>
-                          </CustomText>
-                        </View>
-                      </Component>
-                      <Component
-                        style={
-                          Object {
-                            "marginHorizontal": 10,
-                          }
-                        }
-                      >
-                        <View
-                          style={
-                            Object {
-                              "marginHorizontal": 10,
-                            }
-                          }
-                        >
-                          <CustomText
-                            style={
-                              Array [
-                                Object {
-                                  "color": "#FFFFFF",
-                                  "fontSize": 14,
-                                },
-                                Object {
-                                  "fontWeight": "bold",
-                                },
-                              ]
-                            }
-                          >
-                            <Text
-                              accessible={true}
-                              allowFontScaling={true}
-                              ellipsizeMode="tail"
-                              style={
-                                Array [
-                                  Object {
-                                    "fontFamily": "Ubuntu-Regular",
-                                  },
-                                  null,
-                                  Array [
-                                    Object {
-                                      "color": "#FFFFFF",
-                                      "fontSize": 14,
-                                    },
-                                    Object {
-                                      "fontWeight": "bold",
-                                    },
-                                  ],
-                                ]
-                              }
-                            >
-                              <Text
-                                accessible={true}
-                                allowFontScaling={true}
-                                ellipsizeMode="tail"
-                                style={
-                                  Array [
-                                    Object {
-                                      "fontFamily": "Ubuntu-Regular",
-                                    },
-                                    null,
-                                    Array [
-                                      Object {
-                                        "color": "#FFFFFF",
-                                        "fontSize": 14,
-                                      },
-                                      Object {
-                                        "fontWeight": "bold",
-                                      },
-                                    ],
-                                  ]
-                                }
-                              >
-                                Eat
-                              </Text>
-                            </Text>
-                          </CustomText>
-                          <CustomText
-                            style={
-                              Array [
-                                Object {
-                                  "color": "#FFFFFF",
-                                  "fontSize": 14,
-                                },
-                              ]
-                            }
-                          >
-                            <Text
-                              accessible={true}
-                              allowFontScaling={true}
-                              ellipsizeMode="tail"
-                              style={
-                                Array [
-                                  Object {
-                                    "fontFamily": "Ubuntu-Regular",
-                                  },
-                                  null,
-                                  Array [
-                                    Object {
-                                      "color": "#FFFFFF",
-                                      "fontSize": 14,
-                                    },
-                                  ],
-                                ]
-                              }
-                            >
-                              <Text
-                                accessible={true}
-                                allowFontScaling={true}
-                                ellipsizeMode="tail"
-                                style={
-                                  Array [
-                                    Object {
-                                      "fontFamily": "Ubuntu-Regular",
-                                    },
-                                    null,
-                                    Array [
-                                      Object {
-                                        "color": "#FFFFFF",
-                                        "fontSize": 14,
-                                      },
-                                    ],
-                                  ]
-                                }
-                              >
-                                Breakfast time
-                              </Text>
-                            </Text>
-                          </CustomText>
-                        </View>
-                      </Component>
-                    </View>
-                  </Component>
-                  <Component
-                    key="3"
-                    style={
-                      Object {
-                        "flexDirection": "row",
-                        "margin": 10,
-                      }
-                    }
-                  >
-                    <View
-                      style={
-                        Object {
-                          "flexDirection": "row",
-                          "margin": 10,
-                        }
-                      }
-                    >
-                      <Component
-                        style={
-                          Object {
-                            "marginHorizontal": 10,
-                          }
-                        }
-                      >
-                        <View
-                          style={
-                            Object {
-                              "marginHorizontal": 10,
-                            }
-                          }
-                        >
-                          <CustomText
-                            style={
-                              Array [
-                                Object {
-                                  "color": "#FFFFFF",
-                                  "fontSize": 14,
-                                },
-                                Object {
-                                  "borderColor": "#FFFFFF",
-                                  "borderRadius": 15,
-                                  "borderWidth": 1,
-                                  "height": 30,
-                                  "lineHeight": 26,
-                                  "textAlign": "center",
-                                  "textAlignVertical": "center",
-                                  "width": 30,
-                                },
-                              ]
-                            }
-                          >
-                            <Text
-                              accessible={true}
-                              allowFontScaling={true}
-                              ellipsizeMode="tail"
-                              style={
-                                Array [
-                                  Object {
-                                    "fontFamily": "Ubuntu-Regular",
-                                  },
-                                  null,
-                                  Array [
-                                    Object {
-                                      "color": "#FFFFFF",
-                                      "fontSize": 14,
-                                    },
-                                    Object {
-                                      "borderColor": "#FFFFFF",
-                                      "borderRadius": 15,
-                                      "borderWidth": 1,
-                                      "height": 30,
-                                      "lineHeight": 26,
-                                      "textAlign": "center",
-                                      "textAlignVertical": "center",
-                                      "width": 30,
-                                    },
-                                  ],
-                                ]
-                              }
-                            >
-                              <Text
-                                accessible={true}
-                                allowFontScaling={true}
-                                ellipsizeMode="tail"
-                                style={
-                                  Array [
-                                    Object {
-                                      "fontFamily": "Ubuntu-Regular",
-                                    },
-                                    null,
-                                    Array [
-                                      Object {
-                                        "color": "#FFFFFF",
-                                        "fontSize": 14,
-                                      },
-                                      Object {
-                                        "borderColor": "#FFFFFF",
-                                        "borderRadius": 15,
-                                        "borderWidth": 1,
-                                        "height": 30,
-                                        "lineHeight": 26,
-                                        "textAlign": "center",
-                                        "textAlignVertical": "center",
-                                        "width": 30,
-                                      },
-                                    ],
-                                  ]
-                                }
-                              >
-                                3
-                              </Text>
-                            </Text>
-                          </CustomText>
-                        </View>
-                      </Component>
-                      <Component>
-                        <View>
-                          <CustomText
-                            style={
-                              Array [
-                                Object {
-                                  "color": "#FFFFFF",
-                                  "fontSize": 14,
-                                },
-                              ]
-                            }
-                          >
-                            <Text
-                              accessible={true}
-                              allowFontScaling={true}
-                              ellipsizeMode="tail"
-                              style={
-                                Array [
-                                  Object {
-                                    "fontFamily": "Ubuntu-Regular",
-                                  },
-                                  null,
-                                  Array [
-                                    Object {
-                                      "color": "#FFFFFF",
-                                      "fontSize": 14,
-                                    },
-                                  ],
-                                ]
-                              }
-                            >
-                              <Text
-                                accessible={true}
-                                allowFontScaling={true}
-                                ellipsizeMode="tail"
-                                style={
-                                  Array [
-                                    Object {
-                                      "fontFamily": "Ubuntu-Regular",
-                                    },
-                                    null,
-                                    Array [
-                                      Object {
-                                        "color": "#FFFFFF",
-                                        "fontSize": 14,
-                                      },
-                                    ],
-                                  ]
-                                }
-                              >
-                                10
-                                "
-                              </Text>
-                            </Text>
-                          </CustomText>
-                        </View>
-                      </Component>
-                      <Component
-                        style={
-                          Object {
-                            "marginHorizontal": 10,
-                          }
-                        }
-                      >
-                        <View
-                          style={
-                            Object {
-                              "marginHorizontal": 10,
-                            }
-                          }
-                        >
-                          <CustomText
-                            style={
-                              Array [
-                                Object {
-                                  "color": "#FFFFFF",
-                                  "fontSize": 14,
-                                },
-                                Object {
-                                  "fontWeight": "bold",
-                                },
-                              ]
-                            }
-                          >
-                            <Text
-                              accessible={true}
-                              allowFontScaling={true}
-                              ellipsizeMode="tail"
-                              style={
-                                Array [
-                                  Object {
-                                    "fontFamily": "Ubuntu-Regular",
-                                  },
-                                  null,
-                                  Array [
-                                    Object {
-                                      "color": "#FFFFFF",
-                                      "fontSize": 14,
-                                    },
-                                    Object {
-                                      "fontWeight": "bold",
-                                    },
-                                  ],
-                                ]
-                              }
-                            >
-                              <Text
-                                accessible={true}
-                                allowFontScaling={true}
-                                ellipsizeMode="tail"
-                                style={
-                                  Array [
-                                    Object {
-                                      "fontFamily": "Ubuntu-Regular",
-                                    },
-                                    null,
-                                    Array [
-                                      Object {
-                                        "color": "#FFFFFF",
-                                        "fontSize": 14,
-                                      },
-                                      Object {
-                                        "fontWeight": "bold",
-                                      },
-                                    ],
-                                  ]
-                                }
-                              >
-                                Clothe
-                              </Text>
-                            </Text>
-                          </CustomText>
-                          <CustomText
-                            style={
-                              Array [
-                                Object {
-                                  "color": "#FFFFFF",
-                                  "fontSize": 14,
-                                },
-                              ]
-                            }
-                          >
-                            <Text
-                              accessible={true}
-                              allowFontScaling={true}
-                              ellipsizeMode="tail"
-                              style={
-                                Array [
-                                  Object {
-                                    "fontFamily": "Ubuntu-Regular",
-                                  },
-                                  null,
-                                  Array [
-                                    Object {
-                                      "color": "#FFFFFF",
-                                      "fontSize": 14,
-                                    },
-                                  ],
-                                ]
-                              }
-                            >
-                              <Text
-                                accessible={true}
-                                allowFontScaling={true}
-                                ellipsizeMode="tail"
-                                style={
-                                  Array [
-                                    Object {
-                                      "fontFamily": "Ubuntu-Regular",
-                                    },
-                                    null,
-                                    Array [
-                                      Object {
-                                        "color": "#FFFFFF",
-                                        "fontSize": 14,
-                                      },
-                                    ],
-                                  ]
-                                }
-                              >
-                                Find and put the right clothes.
+                                ⛹🏼‍♀️
                               </Text>
                             </Text>
                           </CustomText>

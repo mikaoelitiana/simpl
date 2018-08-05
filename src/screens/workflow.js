@@ -4,37 +4,12 @@ import LinearGradient from "react-native-linear-gradient";
 import FlowItem from "../components/flow-item";
 import Text from "../components/text";
 
-const item = {
-  title: "Moring flow",
-  description: "What I do when I wake up.",
-  steps: [
-    {
-      title: "Wash",
-      description: "Go to the bathroom",
-      timer: 10
-    },
-    {
-      title: "Meditate",
-      description: "Have a quiet time to meditate",
-      timer: 20
-    },
-    {
-      title: "Eat",
-      description: "Breakfast time",
-      timer: 20
-    },
-    {
-      title: "Clothe",
-      description: "Find and put the right clothes.",
-      timer: 10
-    }
-  ]
-};
-
 export default class Workflow extends React.Component {
   render() {
+    const item = this.props.navigation.getParam("item");
+
     return (
-      <LinearGradient colors={["#8E2DE2", "#4A00E0"]} style={styles.container}>
+      <LinearGradient colors={["#1A2980", "#26D0CE"]} style={styles.container}>
         <ScrollView>
           <FlowItem {...item} />
           {item.steps.map((step, index) => {
@@ -66,14 +41,15 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "#F5FCFF",
     opacity: 0.9,
-    padding: 18
+    padding: 18,
+    paddingTop: 50
   },
   text: {
     fontSize: 14,
     color: "#FFFFFF"
   },
   bold: {
-    fontWeight: "bold",
+    fontWeight: "bold"
   },
   step: {
     flexDirection: "row",
