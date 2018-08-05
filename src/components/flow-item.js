@@ -5,7 +5,7 @@ import Text from "./text";
 export default class FlowItem extends React.Component {
   render() {
     return (
-      <TouchableOpacity style={styles.container}>
+      <TouchableOpacity style={styles.container} onPress={this.props.onPress}>
         <Text bold style={styles.title}>
           {this.props.title}
         </Text>

@@ -31,11 +31,10 @@ export default class Home extends Component {
             {
               key: "b",
               title: "Afternoon workout",
-              description:
-                "A few minutes of workout in the afternoon to keep in good shape"
+              description: "A few minutes of workout in the afternoon to keep in good shape"
             }
           ]}
-          renderItem={({ item }) => <FlowItem {...item} />}
+          renderItem={({ item }) => <FlowItem {...item} onPress={() => this.props.navigation.navigate("Detail")} />}
         />
       </LinearGradient>
     );
