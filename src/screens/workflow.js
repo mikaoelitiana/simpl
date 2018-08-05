@@ -10,13 +10,13 @@ export default class Workflow extends React.Component {
 
     return (
       <LinearGradient colors={["#1A2980", "#26D0CE"]} style={styles.container}>
+        <FlowItem {...item} />
         <ScrollView>
-          <FlowItem {...item} />
           {item.steps.map((step, index) => {
             return (
               <View key={index} style={styles.step}>
                 <View style={styles.indexContainer}>
-                  <Text style={[styles.text, styles.index]}>{index}</Text>
+                  <Text style={[styles.text, styles.index]}>{index + 1}</Text>
                 </View>
                 <View>
                   <Text style={[styles.text]}>{step.timer}"</Text>

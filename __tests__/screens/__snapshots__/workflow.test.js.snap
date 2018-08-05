@@ -95,207 +95,207 @@ exports[`Detail screen matches initial snapshot 1`] = `
           }
         }
       >
+        <FlowItem
+          description="A few minutes of workout in the afternoon to keep in good shape"
+          key="2"
+          steps={
+            Array [
+              Object {
+                "description": "💪🏼",
+                "timer": 3,
+                "title": "Push-up",
+              },
+              Object {
+                "description": "⛹🏼‍♀️",
+                "timer": 20,
+                "title": "Jumping",
+              },
+            ]
+          }
+          title="Afternoon workout"
+        >
+          <TouchableOpacity
+            activeOpacity={0.2}
+            style={
+              Object {
+                "borderLeftColor": "#ffffff",
+                "borderLeftWidth": 3,
+                "marginBottom": 20,
+                "paddingLeft": 10,
+              }
+            }
+          >
+            <AnimatedComponent
+              accessible={true}
+              isTVSelectable={true}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Array [
+                  Object {
+                    "borderLeftColor": "#ffffff",
+                    "borderLeftWidth": 3,
+                    "marginBottom": 20,
+                    "paddingLeft": 10,
+                  },
+                  Object {
+                    "opacity": 1,
+                  },
+                ]
+              }
+            >
+              <Component
+                accessible={true}
+                isTVSelectable={true}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  Object {
+                    "borderLeftColor": "#ffffff",
+                    "borderLeftWidth": 3,
+                    "marginBottom": 20,
+                    "opacity": 1,
+                    "paddingLeft": 10,
+                  }
+                }
+              >
+                <View
+                  accessible={true}
+                  isTVSelectable={true}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    Object {
+                      "borderLeftColor": "#ffffff",
+                      "borderLeftWidth": 3,
+                      "marginBottom": 20,
+                      "opacity": 1,
+                      "paddingLeft": 10,
+                    }
+                  }
+                >
+                  <CustomText
+                    bold={true}
+                    style={
+                      Object {
+                        "color": "#ffffff",
+                        "fontSize": 18,
+                        "fontWeight": "bold",
+                      }
+                    }
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Array [
+                          Object {
+                            "fontFamily": "Ubuntu-Regular",
+                          },
+                          Object {
+                            "fontFamily": "Ubuntu-Bold",
+                          },
+                          Object {
+                            "color": "#ffffff",
+                            "fontSize": 18,
+                            "fontWeight": "bold",
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Array [
+                            Object {
+                              "fontFamily": "Ubuntu-Regular",
+                            },
+                            Object {
+                              "fontFamily": "Ubuntu-Bold",
+                            },
+                            Object {
+                              "color": "#ffffff",
+                              "fontSize": 18,
+                              "fontWeight": "bold",
+                            },
+                          ]
+                        }
+                      >
+                        Afternoon workout
+                      </Text>
+                    </Text>
+                  </CustomText>
+                  <CustomText
+                    style={
+                      Object {
+                        "color": "#ffffff",
+                        "fontSize": 14,
+                      }
+                    }
+                  >
+                    <Text
+                      accessible={true}
+                      allowFontScaling={true}
+                      ellipsizeMode="tail"
+                      style={
+                        Array [
+                          Object {
+                            "fontFamily": "Ubuntu-Regular",
+                          },
+                          null,
+                          Object {
+                            "color": "#ffffff",
+                            "fontSize": 14,
+                          },
+                        ]
+                      }
+                    >
+                      <Text
+                        accessible={true}
+                        allowFontScaling={true}
+                        ellipsizeMode="tail"
+                        style={
+                          Array [
+                            Object {
+                              "fontFamily": "Ubuntu-Regular",
+                            },
+                            null,
+                            Object {
+                              "color": "#ffffff",
+                              "fontSize": 14,
+                            },
+                          ]
+                        }
+                      >
+                        A few minutes of workout in the afternoon to keep in good shape
+                      </Text>
+                    </Text>
+                  </CustomText>
+                </View>
+              </Component>
+            </AnimatedComponent>
+          </TouchableOpacity>
+        </FlowItem>
         <ScrollView>
           <_class>
             <RCTScrollView>
               <Component>
                 <View>
-                  <FlowItem
-                    description="A few minutes of workout in the afternoon to keep in good shape"
-                    key="2"
-                    steps={
-                      Array [
-                        Object {
-                          "description": "💪🏼",
-                          "timer": 3,
-                          "title": "Push-up",
-                        },
-                        Object {
-                          "description": "⛹🏼‍♀️",
-                          "timer": 20,
-                          "title": "Jumping",
-                        },
-                      ]
-                    }
-                    title="Afternoon workout"
-                  >
-                    <TouchableOpacity
-                      activeOpacity={0.2}
-                      style={
-                        Object {
-                          "borderLeftColor": "#ffffff",
-                          "borderLeftWidth": 3,
-                          "marginBottom": 20,
-                          "paddingLeft": 10,
-                        }
-                      }
-                    >
-                      <AnimatedComponent
-                        accessible={true}
-                        isTVSelectable={true}
-                        onResponderGrant={[Function]}
-                        onResponderMove={[Function]}
-                        onResponderRelease={[Function]}
-                        onResponderTerminate={[Function]}
-                        onResponderTerminationRequest={[Function]}
-                        onStartShouldSetResponder={[Function]}
-                        style={
-                          Array [
-                            Object {
-                              "borderLeftColor": "#ffffff",
-                              "borderLeftWidth": 3,
-                              "marginBottom": 20,
-                              "paddingLeft": 10,
-                            },
-                            Object {
-                              "opacity": 1,
-                            },
-                          ]
-                        }
-                      >
-                        <Component
-                          accessible={true}
-                          isTVSelectable={true}
-                          onResponderGrant={[Function]}
-                          onResponderMove={[Function]}
-                          onResponderRelease={[Function]}
-                          onResponderTerminate={[Function]}
-                          onResponderTerminationRequest={[Function]}
-                          onStartShouldSetResponder={[Function]}
-                          style={
-                            Object {
-                              "borderLeftColor": "#ffffff",
-                              "borderLeftWidth": 3,
-                              "marginBottom": 20,
-                              "opacity": 1,
-                              "paddingLeft": 10,
-                            }
-                          }
-                        >
-                          <View
-                            accessible={true}
-                            isTVSelectable={true}
-                            onResponderGrant={[Function]}
-                            onResponderMove={[Function]}
-                            onResponderRelease={[Function]}
-                            onResponderTerminate={[Function]}
-                            onResponderTerminationRequest={[Function]}
-                            onStartShouldSetResponder={[Function]}
-                            style={
-                              Object {
-                                "borderLeftColor": "#ffffff",
-                                "borderLeftWidth": 3,
-                                "marginBottom": 20,
-                                "opacity": 1,
-                                "paddingLeft": 10,
-                              }
-                            }
-                          >
-                            <CustomText
-                              bold={true}
-                              style={
-                                Object {
-                                  "color": "#ffffff",
-                                  "fontSize": 18,
-                                  "fontWeight": "bold",
-                                }
-                              }
-                            >
-                              <Text
-                                accessible={true}
-                                allowFontScaling={true}
-                                ellipsizeMode="tail"
-                                style={
-                                  Array [
-                                    Object {
-                                      "fontFamily": "Ubuntu-Regular",
-                                    },
-                                    Object {
-                                      "fontFamily": "Ubuntu-Bold",
-                                    },
-                                    Object {
-                                      "color": "#ffffff",
-                                      "fontSize": 18,
-                                      "fontWeight": "bold",
-                                    },
-                                  ]
-                                }
-                              >
-                                <Text
-                                  accessible={true}
-                                  allowFontScaling={true}
-                                  ellipsizeMode="tail"
-                                  style={
-                                    Array [
-                                      Object {
-                                        "fontFamily": "Ubuntu-Regular",
-                                      },
-                                      Object {
-                                        "fontFamily": "Ubuntu-Bold",
-                                      },
-                                      Object {
-                                        "color": "#ffffff",
-                                        "fontSize": 18,
-                                        "fontWeight": "bold",
-                                      },
-                                    ]
-                                  }
-                                >
-                                  Afternoon workout
-                                </Text>
-                              </Text>
-                            </CustomText>
-                            <CustomText
-                              style={
-                                Object {
-                                  "color": "#ffffff",
-                                  "fontSize": 14,
-                                }
-                              }
-                            >
-                              <Text
-                                accessible={true}
-                                allowFontScaling={true}
-                                ellipsizeMode="tail"
-                                style={
-                                  Array [
-                                    Object {
-                                      "fontFamily": "Ubuntu-Regular",
-                                    },
-                                    null,
-                                    Object {
-                                      "color": "#ffffff",
-                                      "fontSize": 14,
-                                    },
-                                  ]
-                                }
-                              >
-                                <Text
-                                  accessible={true}
-                                  allowFontScaling={true}
-                                  ellipsizeMode="tail"
-                                  style={
-                                    Array [
-                                      Object {
-                                        "fontFamily": "Ubuntu-Regular",
-                                      },
-                                      null,
-                                      Object {
-                                        "color": "#ffffff",
-                                        "fontSize": 14,
-                                      },
-                                    ]
-                                  }
-                                >
-                                  A few minutes of workout in the afternoon to keep in good shape
-                                </Text>
-                              </Text>
-                            </CustomText>
-                          </View>
-                        </Component>
-                      </AnimatedComponent>
-                    </TouchableOpacity>
-                  </FlowItem>
                   <Component
                     key="0"
                     style={
@@ -405,7 +405,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
                                   ]
                                 }
                               >
-                                0
+                                1
                               </Text>
                             </Text>
                           </CustomText>
@@ -708,7 +708,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
                                   ]
                                 }
                               >
-                                1
+                                2
                               </Text>
                             </Text>
                           </CustomText>
