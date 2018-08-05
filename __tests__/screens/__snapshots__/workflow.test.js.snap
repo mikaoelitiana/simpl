@@ -45,10 +45,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
     }
     style={
       Object {
-        "alignItems": "center",
-        "backgroundColor": "#F5FCFF",
         "flex": 1,
-        "justifyContent": "center",
         "opacity": 0.9,
         "padding": 18,
         "paddingTop": 50,
@@ -65,10 +62,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
       locations={null}
       style={
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#F5FCFF",
           "flex": 1,
-          "justifyContent": "center",
           "opacity": 0.9,
           "padding": 18,
           "paddingTop": 50,
@@ -85,10 +79,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
         locations={null}
         style={
           Object {
-            "alignItems": "center",
-            "backgroundColor": "#F5FCFF",
             "flex": 1,
-            "justifyContent": "center",
             "opacity": 0.9,
             "padding": 18,
             "paddingTop": 50,
@@ -122,6 +113,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
                 "borderLeftWidth": 3,
                 "marginBottom": 20,
                 "paddingLeft": 10,
+                "width": "100%",
               }
             }
           >
@@ -141,6 +133,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
                     "borderLeftWidth": 3,
                     "marginBottom": 20,
                     "paddingLeft": 10,
+                    "width": "100%",
                   },
                   Object {
                     "opacity": 1,
@@ -164,6 +157,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
                     "marginBottom": 20,
                     "opacity": 1,
                     "paddingLeft": 10,
+                    "width": "100%",
                   }
                 }
               >
@@ -183,6 +177,7 @@ exports[`Detail screen matches initial snapshot 1`] = `
                       "marginBottom": 20,
                       "opacity": 1,
                       "paddingLeft": 10,
+                      "width": "100%",
                     }
                   }
                 >
@@ -300,7 +295,9 @@ exports[`Detail screen matches initial snapshot 1`] = `
                     key="0"
                     style={
                       Object {
+                        "flex": 1,
                         "flexDirection": "row",
+                        "justifyContent": "flex-start",
                         "margin": 10,
                       }
                     }
@@ -308,7 +305,9 @@ exports[`Detail screen matches initial snapshot 1`] = `
                     <View
                       style={
                         Object {
+                          "flex": 1,
                           "flexDirection": "row",
+                          "justifyContent": "flex-start",
                           "margin": 10,
                         }
                       }
@@ -603,7 +602,9 @@ exports[`Detail screen matches initial snapshot 1`] = `
                     key="1"
                     style={
                       Object {
+                        "flex": 1,
                         "flexDirection": "row",
+                        "justifyContent": "flex-start",
                         "margin": 10,
                       }
                     }
@@ -611,7 +612,9 @@ exports[`Detail screen matches initial snapshot 1`] = `
                     <View
                       style={
                         Object {
+                          "flex": 1,
                           "flexDirection": "row",
+                          "justifyContent": "flex-start",
                           "margin": 10,
                         }
                       }

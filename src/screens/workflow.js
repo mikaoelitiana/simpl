@@ -37,9 +37,6 @@ export default class Workflow extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#F5FCFF",
     opacity: 0.9,
     padding: 18,
     paddingTop: 50
@@ -53,7 +50,9 @@ const styles = StyleSheet.create({
   },
   step: {
     flexDirection: "row",
-    margin: 10
+    margin: 10,
+    justifyContent: "flex-start",
+    flex: 1
   },
   indexContainer: {
     marginHorizontal: 10

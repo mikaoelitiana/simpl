@@ -17,6 +17,7 @@ export default class FlowItem extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
+    width: "100%",
     marginBottom: 20,
     borderLeftColor: "#ffffff",
     borderLeftWidth: 3,
