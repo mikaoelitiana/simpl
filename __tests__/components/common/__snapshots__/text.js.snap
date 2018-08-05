@@ -2,7 +2,10 @@
 
 exports[`renders as snapshot 1`] = `
 <CustomText>
-  <Component
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
     style={
       Array [
         Object {
@@ -14,6 +17,9 @@ exports[`renders as snapshot 1`] = `
     }
   >
     <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
       style={
         Array [
           Object {
@@ -26,6 +32,6 @@ exports[`renders as snapshot 1`] = `
     >
       Hello World
     </Text>
-  </Component>
+  </Text>
 </CustomText>
 `;
