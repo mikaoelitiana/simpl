@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders as snapshot 1`] = `
+<CustomText>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontFamily": "Ubuntu-Regular",
+        },
+        null,
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontFamily": "Ubuntu-Regular",
+          },
+          null,
+          undefined,
+        ]
+      }
+    >
+      Hello World
+    </Text>
+  </Text>
+</CustomText>
+`;
