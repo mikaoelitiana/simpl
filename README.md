@@ -16,5 +16,5 @@ react-native run-android
 
 ## Screenshot
 
-![welcome](welcome.png)
+![welcome](screenshots/welcome.png) ![workflow details](screenshots/details.png)
 
