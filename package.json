@@ -9,9 +9,11 @@
     "android": "react-native run-android"
   },
   "dependencies": {
+    "prop-types": "^15.6.2",
     "react": "16.4.1",
     "react-native": "0.55.4",
     "react-native-linear-gradient": "^2.4.0",
+    "react-native-vector-icons": "^5.0.0",
     "react-navigation": "^2.9.3"
   },
   "devDependencies": {

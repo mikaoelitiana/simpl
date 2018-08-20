@@ -1,4 +1,6 @@
 import React from "react";
+import PropTypes from "prop-types";
+import Icon from "react-native-vector-icons/FontAwesome";
 import { StyleSheet, View, TouchableOpacity } from "react-native";
 import Text from "./text";
 
@@ -6,14 +8,26 @@ export default class FlowItem extends React.Component {
   render() {
     return (
       <TouchableOpacity style={styles.container} onPress={this.props.onPress}>
-        <Text bold style={styles.title}>
-          {this.props.title}
-        </Text>
-        <Text style={styles.description}>{this.props.description}</Text>
+        <View>
+          <Text bold style={styles.title}>
+            {this.props.title}
+          </Text>
+          <Text style={styles.description}>{this.props.description}</Text>
+        </View>
+        {this.props.withStartButton && (
+          <View>
+            <Icon name="play" size={30} color="#ffffff" />
+          </View>
+        )}
       </TouchableOpacity>
     );
   }
 }
+
+FlowItem.propTypes = {
+  onStart: PropTypes.func,
+  withStartButton: PropTypes.bool
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -21,7 +35,9 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     borderLeftColor: "#ffffff",
     borderLeftWidth: 3,
-    paddingLeft: 10
+    paddingLeft: 10,
+    flexDirection: "row",
+    justifyContent: "space-between"
   },
   title: {
     color: "#ffffff",

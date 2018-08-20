@@ -10,7 +10,7 @@ export default class Workflow extends React.Component {
 
     return (
       <LinearGradient colors={["#1A2980", "#26D0CE"]} style={styles.container}>
-        <FlowItem {...item} />
+        <FlowItem {...item} withStartButton/>
         <ScrollView>
           {item.steps.map((step, index) => {
             return (
