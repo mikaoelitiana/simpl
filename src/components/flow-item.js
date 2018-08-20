@@ -25,8 +25,12 @@ export default class FlowItem extends React.Component {
 }
 
 FlowItem.propTypes = {
-  onStart: PropTypes.func,
+  onPress: PropTypes.func,
   withStartButton: PropTypes.bool
+};
+
+FlowItem.defaultProps = {
+  onPressStart: () => {}
 };
 
 const styles = StyleSheet.create({
